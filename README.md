@@ -14,15 +14,15 @@ As a Youtube professional, I find that it's useful to have this list handy in or
 ## Installation
 
 1. Clone the repository:
-
+```
 git clone https://github.com/plotJ/Youtube-Scraper
 cd Youtube-Scraper
-
+```
 
 2. Create a virtual environment:
-
+```
 python -m venv venv
-
+```
 
 3. Activate the virtual environment:
 
@@ -37,18 +37,18 @@ python -m venv venv
   ```
 
 4. Install the required packages:
-
+```
 pip install -r requirements.txt
-
+```
 
 ## Usage
 
 1. Replace the `api_key` in `main.py` with your own YouTube Data API key.
 
 2. Run the script:
-
+```
 python main.py
-
+```
 3. Enter the URL of the YouTube channel you want to scrape when prompted.
 
 4. The script will create an Excel file in the current directory with the scraped video data.
