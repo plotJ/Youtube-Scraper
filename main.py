@@ -7,7 +7,7 @@ from googleapiclient.errors import HttpError
 from datetime import datetime
 
 # Set up the YouTube API client
-api_key = 'AIzaSyA7O31notbQM4XXa226uoCDxwc26rLrD0E'
+api_key = 'INSERT API KEY HERE'
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 # Prompt the user to enter a channel URL
