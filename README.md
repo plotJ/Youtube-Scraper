@@ -49,7 +49,7 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
-3. Enter the URL of the YouTube channel you want to scrape when prompted.
+3. Enter the URL of the YouTube channel you want to scrape when prompted. NOTE: The most reliable results come from grabbing the channel ID from the Channel's About Tab. Click on the share icon and then copy channel id. Use it in the format youtube.com/xyzxyz
 
 4. The script will create an Excel file in the current directory with the scraped video data.
 
